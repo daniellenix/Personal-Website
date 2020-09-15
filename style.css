@@ -49,6 +49,7 @@ body {
 
 .second-section {
 	padding: 10% 0% 20% 0%;
+	background-color: blue;
 }
 
 .second-section h3 {
@@ -79,14 +80,9 @@ body {
 	margin-bottom: 10%;
 }
 
-.second-section .container .row .service-item {
-    margin-right: -20px;
-}
-
 .service-item {
     box-sizing: border-box;
     width: 25%;
-    padding-right: 20px;
     float: left;
 }
 
@@ -106,7 +102,7 @@ body {
 }
 
 .wrapper {
-	padding: 2% 0 2% 0;
+	padding: 2% 0% 2% 0%;
 	position: relative;
 }
 
