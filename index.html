@@ -6,28 +6,30 @@
         <title>Danielle Nix</title>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
+
         <section class="first-section">
           <div class="container">
-            <div class="row">
-              <div class="circular--portrait">
-                <img src="img/coffee.jpg">
+
+            <img class="circular-portrait" src="img/coffee.jpg">
+            
+              <div class="text-content">
+                <h2>Danielle Nix</h2>
+                <span>Third-Year Software Systems Student<br>at Simon Fraser University</span>
+                <ul>
+                  <li><a href="https://linkedin.com/in/danielle-nix"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://github.com/daniellenix"><i class="fa fa-github"></i></a></li>
+                  <li><a href="https://docs.google.com/document/d/1QxqiivWdOcLE2nx8PNUKv_OKZG1HrowXmRC11d3yZBU/edit?usp=sharing"><i class="fa fa-google"></i></a></li>
+                </ul>
               </div>
-                <div class="text-content">
-                  <h2>Danielle Nix</h2>
-                  <span>Third-Year Software Systems Student<br>at Simon Fraser University</span>
-                  <ul>
-                    <li><a href="https://linkedin.com/in/danielle-nix"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/daniellenix"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://docs.google.com/document/d/1QxqiivWdOcLE2nx8PNUKv_OKZG1HrowXmRC11d3yZBU/edit?usp=sharing"><i class="fa fa-google"></i></a></li>
-                  </ul>
-                </div>
-              </div>
+
           </div>
         </section>
 
-        <section class="second-section">
+      
+        <section class="second-section" data-aos="fade-up" data-aos-delay="200">
           <h2>About Me</h2>
           <h1>Hey there!</h1>
           <h1> 
@@ -36,6 +38,8 @@
             Recently, I joined Embark, a non-profit <br>sustainability club where I was able to meet new people and participate in growing fresh produce. 
             <br>I enjoy meeting new people and learning about new things, so I've had a lot of fun being apart of Embark, <br>whilst getting my hands dirty.
           </h1>
+
+
           <div class="row">
             <h3>Technical and Transferable Skills</h3>
             <div class="column">
@@ -80,10 +84,24 @@
             </div>
           </div>
         </section>
+        
 
-        <section id="one" class="wrapper style1">
+        <section id="one" class="wrapper style1" data-aos="fade-up" data-aos-delay="200">
           <div class="inner">
             <h4>Projects I've Worked On</h4>
+            <article class="feature right">
+              <span class="image"><img src="img/time.png" alt="" /></span>
+              <div class="content">
+                <h2>Time</h2>
+                <p>Displays the current time with a dynamic background that changes throughout the day. Implements a google search bar with autocomplete
+                  that allows the user to search for the time anywhere in the world. Makes use of Abstract's Timezone API to retrieve timezone information.</p>
+                <ul class="actions">
+                  <li>
+                    <a href="https://daniellenix.github.io/time/" class="button alt">More</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
             <article class="feature left">
               <span class="image"><img src="img/solarSign.png" alt="" /></span>
               <div class="content">
@@ -168,6 +186,11 @@
             </div>
           </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
 

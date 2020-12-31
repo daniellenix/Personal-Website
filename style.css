@@ -10,29 +10,22 @@ body {
 }
 
 /* first section */
-
-.circular--portrait {
-	position: absolute;
-	left: 10%;
-	top: 18%;
+				
+.circular-portrait {
+	border-radius: 50%;
 	width: 200px;
 	height: 200px;
-	overflow: hidden;
-	border-radius: 50%;
-}
-				
-.circular--portrait img {
-	width: 100%;
-	height: auto;
-	margin-top: -10%;
+	float: left;
 	position: absolute;
+	left: 7%;
+
 }
 
 .first-section {
 	background-image: url(img/mountains.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20% 0% 30% 0%;
+	padding: 30% 0% 30% 0%;
 }
 
 .first-section .text-content {
@@ -46,7 +39,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 900;
 	letter-spacing: 1px;
-	margin-top: -10%;
+	margin-top: -20%;
 }
 
 .first-section .text-content span {
