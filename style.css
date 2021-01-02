@@ -10,45 +10,44 @@ body {
 }
 
 /* first section */
+
+.col {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+/* Clear floats after the columns */
+.r:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.col {
+		width: 100%;
+	}
+}
+
+.image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 				
 .circular-portrait {
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	float: left;
-	position: absolute;
-	left: 7%;
+	width: 250px;
+	height: 250px;
 }
 
 .first-section {
 	background-image: url(img/mountains.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 30% 0% 30% 0%;
-}
-
-.first-section .text-content {
-	text-align: left;
-    color: #F7F9FB;
-	padding-left: 25%;
-}
-  
-@media screen and (max-width: 500px) {
-	.image {
-		width: 100%;
-	}
-
-	.text-content {
-		width: 100%;
-	}
-}
-
-.first-section .text-content h2 {
-	font-size: 44px;
-	text-transform: uppercase;
-	font-weight: 900;
-	letter-spacing: 1px;
-	margin-top: -20%;
+	padding: 10% 0% 30% 0%;
 }
 
 .first-section .text-content span {
@@ -57,6 +56,21 @@ body {
 	font-weight: 300;
 	letter-spacing: 1px;
 }
+
+.first-section .text-content {
+	text-align: left;
+    color: #F7F9FB;
+	font-size: 44px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.first-section .text-content h2 {
+	margin-block-start: 10%;
+	margin-block-end: 10%;;
+}
+
 
 .first-section ul {
 	padding: 0;
