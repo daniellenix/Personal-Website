@@ -40,9 +40,8 @@ body {
 }
 				
 .circular-portrait {
-	border-radius: 50%;
-	width: 250px;
-	height: 250px;
+	max-width: 60%;
+	height: auto;
 }
 
 .first-section {
@@ -117,7 +116,11 @@ body {
 .second-section {
 	padding-top: 10%;
 	padding-bottom: 5%;
-	padding-left: 10%;
+}
+
+.center {
+	margin: auto;
+	width: 80%;
 }
 
 .second-section h1 {
