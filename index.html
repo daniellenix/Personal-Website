@@ -3,182 +3,112 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Danielle Nix</title>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <title>Danielle Nix</title>
     </head>
+    
     <body>
-
-        <section class="first-section">
-          <div class="r">
-
-            <div class="image col">
-              <img class="circular-portrait" src="img/circle-cropped.png">
-            </div>
-            
-            <div class="text-content col">
-              <h2>Danielle Nix</h2>
-              <span>Third-Year Software Systems Student<br>at Simon Fraser University</span>
-              <ul>
-                <li><a href="https://linkedin.com/in/danielle-nix"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/daniellenix"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://docs.google.com/document/d/1QxqiivWdOcLE2nx8PNUKv_OKZG1HrowXmRC11d3yZBU/edit?usp=sharing"><i class="fa fa-google"></i></a></li>
-              </ul>
-            </div>
-
+        <section id="outer" class="container-fluid first-section">
+          <a class="topright text-decoration-none" ref="https://docs.google.com/document/d/1QxqiivWdOcLE2nx8PNUKv_OKZG1HrowXmRC11d3yZBU/edit?usp=sharing" >Resume</a>
+          <div id="inner">
+            <h2>Danielle Nix</h2>
+            <span>Fourth-Year Software Systems Student<br>at Simon Fraser University</span>
           </div>
         </section>
 
       
-        <section class="second-section center" data-aos="fade-up" data-aos-delay="200">
-          <h2>About Me</h2>
-          <h1>Hey there!</h1>
-          <h1> 
-            My name is Danielle and I'm a third-year software systems student a SFU. I'm currently studying to become a software developer and I'm seeking a summer CO-OP. 
-            I enjoy learning new languages and improving my skillset through working on personal projects. I'm able to work efficiently within a team setting or individually.
-            When I'm not working, I like to spend my time hiking and exploring new places with my friends. Recently, I joined Embark, a non-profit sustainability club 
-            where I was able to meet new people and participate in growing fresh produce. I enjoy meeting new people and learning about new things, 
-            so I've had a lot of fun being apart of Embark, whilst getting my hands dirty.
-          </h1>
-
-
-          <div class="row">
-            <h3>Technical and Transferable Skills</h3>
-            <div class="column">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="img/coding.png" alt="">
-                </div>
-                <h4>Languages</h4>
-                <ul>
-                  <li>C++</li>
-                  <li>Java</li>
-                  <li>HTML, CSS, and Javascript</li>
-                </ul>
-              </div>
-            </div>
-            <div class="column">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="img/software.png" alt="">
-                </div>
-                <h4>Software</h4>
-                <ul>
-                  <li>MS Office</li>
-                  <li>GitHub and Gitlab</li>
-                  <li>Android Studio and IntelliJ</li>
-                </ul>
-              </div>
-            </div>
-            <div class="column">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="img/skills.png" alt="">
-                </div>
-                <h4>Transferable Skills</h4>
-                <ul>
-                  <li>Communication</li>
-                  <li>Organization</li>
-                  <li>Leadership</li>
-                  <li>French and Japanese</li>
-                </ul>
-                </div>
-            </div>
+        <section class="second-section" data-aos="fade-up" data-aos-delay="200">
+          <div class="container-fluid col-md-8">
+            <h2>About Me</h2>
+            <h1>Hey there!</h1>
+            <h1> 
+              My name is Danielle and I'm a fourth-year software systems student a SFU. I'm currently studying to become a software program manager. 
+              I enjoy learning new languages and improving my skillset through working on personal projects. I'm able to work efficiently within a team setting or individually.
+              When I'm not working, I like to spend my time hiking and exploring new places with my friends. Recently, I joined Embark, a non-profit sustainability club 
+              where I was able to meet new people and participate in growing fresh produce. I enjoy meeting new people and learning about new things, 
+              so I've had a lot of fun being apart of Embark, whilst getting my hands dirty.
+            </h1>
           </div>
         </section>
-        
 
-        <section id="one" class="wrapper style1" data-aos="fade-up" data-aos-delay="200">
-          <div class="inner">
-            <h4>Projects I've Worked On</h4>
+        <section id="one" class="third-section" data-aos="fade-up" data-aos-delay="200">
+          <div class="inner container-fluid col-md-8">
+            
+            <h2>Projects I've Worked On</h2>
+            
             <article class="feature right">
-              <span class="image"><img src="img/time.png" alt="" /></span>
+              <span class="image"><img src="img/time.png" alt=""/></span>
               <div class="content">
                 <h2>Time</h2>
                 <p>Displays the current time with a dynamic background that changes throughout the day. Implements a google search bar with autocomplete
                   that allows the user to search for the time anywhere in the world. Makes use of Abstract's Timezone API to retrieve timezone information.</p>
-                <ul class="actions">
-                  <li>
-                    <a href="https://daniellenix.github.io/time/" class="button alt">More</a>
-                  </li>
-                </ul>
+                
+                <a href="https://daniellenix.github.io/time/">More</a>
               </div>
             </article>
+
             <article class="feature left">
               <span class="image"><img src="img/solarSign.png" alt="" /></span>
               <div class="content">
-                <h2>Solar Sign</h2>
+                <h2>Solar sign</h2>
                 <p>Making use of NASA's Mars Rover API, Solar Sign is a website that provides personalized horoscopes using modern web development methodologies.
                   Hackacademia 2020 submission.</p>
-                <ul class="actions">
-                  <li>
-                    <a href="https://daniellenix.github.io/solarsign/" class="button alt">More</a>
-                  </li>
-                </ul>
+                  <a href="https://daniellenix.github.io/solarsign/">More</a>
               </div>
             </article>
+
             <article class="feature right">
               <span class="image"><img src="img/inspection.png" alt="" /></span>
               <div class="content">
-                <h2>Restaurant Health Inspection Browsing Android App</h2>
-                <p>Displays restaurant health inspection reports in a clear and concise way. 
-                  Users can download new data from Surrey's server, view a map or list to see restaurants nearby and search for specific restuarants. 
-                  Users can then view each restuarant's inspection report details, with helpful icons displaying hazard levels. 
+                <h2>Restaurant health inspection browsing app</h2>
+                <p>Displays restaurant health inspection reports, where users can download new data from Surrey's server, view a map or list to see restaurants nearby, and search for specific restuarants. 
+                  Users can view each restuarant's inspection report details, with helpful icons displaying hazard levels. 
                   Other features include a favourites list and internationalization.</p>
-                <ul class="actions">
-                  <li>
-                    <a href="https://github.com/daniellenix/RestaurantHealthInspection" class="button alt">More</a>
-                  </li>
-                </ul>
+                  <a href="https://github.com/daniellenix/RestaurantHealthInspection">More</a>
               </div>
             </article>
+
             <article class="feature left">
               <span class="image"><img src="img/maze.png" alt="" /></span>
               <div class="content">
-                <h2>Maze Game</h2>
+                <h2>Maze game</h2>
                 <p>Maze exploration game where the player controls a mouse in search of some pieces of cheese to win the game.
                   The maze is hidden and as the player advances, more parts of the maze are revealed. 
                   The player must also avoid cats during their search for the cheese.
                 </p>
-                <ul class="actions">
-                  <li>
-                    <a href="https://github.com/daniellenix/MazeGame" class="button alt">More</a>
-                  </li>
-                </ul>
+                <a href="https://github.com/daniellenix/MazeGame">More</a>
               </div>
             </article>
+
             <article class="feature right">
               <span class="image"><img src="img/lens.png" alt="" /></span>
               <div class="content">
-                <h2>Depth Of Field Calculator Lens Android App</h2>
+                <h2>Depth of field calculator lens android app</h2>
                 <p>Allows users to determine focal distance, depth of field and hyperfocal distance calculations for a selected lens.
                   Users can add, edit and delete a list of lenses and insert additional information to view automatic recalculations.</p>
-                <ul class="actions">
-                  <li>
-                    <a href="https://github.com/daniellenix/DepthOfFieldCalculator" class="button alt">More</a>
-                  </li>
-                </ul>
+                  <a href="https://github.com/daniellenix/DepthOfFieldCalculator">More</a>
               </div>
             </article>
+
             <article class="feature left">
               <span class="image"><img src="img/stargame.png" alt="" /></span>
               <div class="content">
-                <h2>Star Game</h2>
+                <h2>Star game</h2>
                 <p>Star finder game, in which players search for stars in space. 
                   Tiles are pressed to reveal a star or the number of surrounding stars if no star is present.
                   Includes interactive sounds and options to change up game settings to increase difficulty.</p>
-                <ul class="actions">
-                  <li>
-                    <a href="https://github.com/daniellenix/StarGame" class="button alt">More</a>
-                  </li>
-                </ul>
+                  <a href="https://github.com/daniellenix/StarGame">More</a>
               </div>
             </article>
           </div>
         </section>
 
         <footer>
+          <h2 class="inner container-fluid col-md-4">Contact me</h2>
+
           <div class="container">
             <div class="row">
                 <ul>
@@ -196,4 +126,3 @@
         </script>
     </body>
 </html>
-
