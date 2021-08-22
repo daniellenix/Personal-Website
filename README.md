@@ -1,1 +1,1 @@
-My personal website for otehrs to get to know me, contact me and view past project experience.
+My personal website for others to get to know me, contact me and view past project experience.
