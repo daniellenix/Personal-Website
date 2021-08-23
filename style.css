@@ -21,16 +21,15 @@ body, html {
 	font-weight: 900;
 	letter-spacing: 1px;
 	text-decoration: none;
-	-webkit-text-stroke: 1px #3D5054;
 }
 
 .first-section a:link {
-	color: #EFE7DA;
+	color: #DF9F33;
 	background-color: transparent;
 }
 
 .first-section a:visited {
-	color: #EFE7DA;
+	color: #DF9F33;
 	background-color: transparent;
 }
 
@@ -210,6 +209,10 @@ footer {
 	width: 100%;
 	background-repeat: no-repeat;
 	padding: 11% 0% 4% 0%;
+}
+
+footer h2 {
+	color: #DF9F33;
 }
 
 footer ul {
