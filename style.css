@@ -21,6 +21,7 @@ body, html {
 	font-weight: 900;
 	letter-spacing: 1px;
 	text-decoration: none;
+	-webkit-text-stroke: 1px #3D5054;
 }
 
 .first-section a:link {
